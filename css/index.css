@@ -1,0 +1,365 @@
+  /* ------------ Global Styles -------------- */
+
+/* Make three boxes fit together */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  background-color: black;
+  /* background-color: #3c3c3c; */
+}
+
+#overrides {
+  font-family: "Exo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+section {
+  font-family: "Exo", sans-serif;
+}
+
+
+.button {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: 0.8rem 0.8rem;
+  font-weight: 700;
+  color: #202020;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-highlight {
+  background: #38fe13;
+  text-decoration: none;
+}
+
+
+.button-highlight:hover {
+  color: #2c3539;
+  text-decoration: none;
+}
+
+/* For transparent button */
+.button-secondary {
+  background: rgb(56, 254, 19);
+}
+
+
+.button-large {
+  padding: 1rem 1rem;
+  font-size: 1.35rem;
+}
+
+
+  
+  /* ----------------- Top -------------------------- */
+
+  .notmobile {
+    display: none;
+  }
+
+  .whatsapp {
+    width: 50px;
+    text-decoration: none;
+    margin-top: -5px;
+  }
+
+  .mainlogo {
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    margin-top: -5px;
+  }
+  
+ 
+  .buttonalign {
+    margin-top: 5px;
+  }
+  
+  #mainNavbar {
+    color: #fff;
+    /* background: #f2f1f8; */
+    background: black;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  
+  #mainNavbar .nav-link {
+    /* color: white; */
+    color: #fff;
+  }
+  
+  .spaceright {
+    margin-right: 3rem;
+  }
+
+/* ---------------- Landing -----------------------  */
+
+#showcase {
+  margin: 0;
+  padding: 0;
+  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frodicomputerservice.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fcomputer-laptop-repair.jpeg&f=1&nofb=1")
+    no-repeat center/cover;
+  width: 100%;
+  height: 80vh;
+  position: relative;
+  overflow-y: hidden;
+}
+
+.container {
+  margin-top: 15vh;
+}
+
+.overlay {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: auto;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  background: rgba(26, 29, 37, 0.6);
+}
+
+#showcase .overlay h1 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin: 20vh 1rem 0 1rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+
+#showcase h2 {
+  font-size: 1rem;
+  margin: 5rem 1rem 0 1rem;
+  color: #fff;
+  text-align: center;
+}
+
+.button-aligning {
+  margin: 3rem 1rem 0 12rem;
+  font-size: 1.3rem;
+}
+
+
+  /* ---------------- Servicios --------------  */
+
+  
+  .descrip {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #f2f1f8;
+  }
+
+
+  .serviceh2 {
+    margin-bottom: 2rem;
+    
+  }
+
+  .lead {
+    margin-bottom: 3rem;
+  }
+
+  .bordering {
+    margin-top: -4rem;
+    /* border: 5px solid #38fe13; */
+    /* border: 5px solid #202020; */
+  }
+
+    /* ------------------ Contact Us ------------------  */
+
+    
+#contact {
+  background: #fff;
+  padding: 3rem 0 5rem 0;
+  text-align: center;
+}
+
+.titlecontact {
+  font-size: 2.5rem;
+  color: #3f3d4e;
+  margin: 1rem;
+  font-weight: 700;
+}
+
+.sub-titlecontact {
+  font-size: 1.5rem;
+  /* color: #b9b7c6; */
+  color: #202020;
+  width: 600px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto 4rem auto;
+}
+
+footer {
+  padding: 1.3rem 0;
+}
+
+.copyright {
+  width: 40px;
+    display: block;
+    margin: -8px auto;
+}
+
+
+
+
+  /* -------------------- iphone 6 ------------------ */
+
+  @media only screen and (min-width: 370px) {
+
+    .button-aligning {
+      margin: 3rem 1rem 0 8rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  /* -------------------- iphone X --------------- */
+
+  @media only screen and (min-width: 370px) {
+
+    #showcase .overlay h1 {
+      margin: 22vh 1rem 0 1rem;
+    }
+
+    .lead {
+      margin-bottom: 4rem;
+    }
+  }
+
+  @media only screen and (min-width: 400px) {
+
+    .button-aligning {
+      margin: 3rem 1rem 0 10rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 500px) {
+
+    .button-aligning {
+      margin: 3rem 1rem 0 12rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 600px) {
+
+    .button-aligning {
+      margin: 3rem 1rem 0 15rem;
+      font-size: 1.3rem;
+    }
+  }
+
+  @media only screen and (min-width: 700px) {
+
+    .button-aligning {
+      margin: 3rem 1rem 0 18rem;
+      font-size: 1.3rem;
+    }
+  }
+
+ /* ------------------ ipad ----------------------  */
+
+ @media screen and (min-width: 768px) {
+    
+    
+  /* --------- Top --------- */
+
+  .mainlogo {
+    width: 170px;
+  }
+
+  .navbar-nav .nav-item .toright {
+    display: none;
+  }
+  
+    /* -------- Landing --------  */
+
+    #showcase {
+      height: 80vh;
+    }
+
+  #showcase .overlay h1 {
+    margin-top: 2rem;
+    font-size: 4rem;
+    padding-top: 10rem;
+    
+  }
+  
+  #showcase h2 {
+    font-size: 2rem;
+    padding-top: 5rem;
+  }
+
+
+  .button-aligning {
+    margin: 5rem 1rem 0 20rem;
+    font-size: 1.5rem;
+  }
+
+  #info {
+    margin-top: 4rem;
+  }
+
+    /* ------------------ larger ----------------------  */
+
+@media screen and (min-width: 769px) {
+
+  /* --------- Landing ---------  */
+ 
+ #showcase {
+   margin: 0;
+   padding: 0;
+   background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frodicomputerservice.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fcomputer-laptop-repair.jpeg&f=1&nofb=1")
+     no-repeat center/cover;
+   width: 100%;
+   height: 100vh;
+   position: relative;
+   overflow-y: hidden;
+ }
+ 
+ 
+ #showcase .overlay h1 {
+   font-size: 5rem;
+   margin: 5rem 1rem 0 1rem;
+   color: #fff;
+   text-align: center;
+   font-weight: 400;
+   line-height: 7rem;
+ }
+ 
+ #showcase h2 {
+   font-size: 1.5rem;
+   margin: 2rem 1rem 0 1rem;
+   color: #fff;
+   text-align: center;
+ }
+ 
+ .button-aligning {
+   margin: 7rem 1rem 5rem 1rem;
+   text-align: center;
+ }
+
+ /* Servicios */
+
+ .serviceh2 {
+  font-size: 4rem;
+  margin-bottom: 2rem;
+  
+}
+
+.lead {
+  margin-bottom: 3rem;
+  font-size: 2rem;
+}
+ 
+}
