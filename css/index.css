@@ -107,7 +107,9 @@ section {
 #showcase {
   margin: 0;
   padding: 0;
-  background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frodicomputerservice.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fcomputer-laptop-repair.jpeg&f=1&nofb=1")
+  /* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frodicomputerservice.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fcomputer-laptop-repair.jpeg&f=1&nofb=1")
+    no-repeat center/cover; */
+    background: url("imgs/reparacion-laptop.jpg")
     no-repeat center/cover;
   width: 100%;
   height: 80vh;
