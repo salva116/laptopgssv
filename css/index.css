@@ -59,6 +59,10 @@ section {
   
   /* ----------------- Top -------------------------- */
 
+  .salute {
+   display: none;
+  }
+
   .notmobile {
     display: none;
   }
@@ -317,6 +321,11 @@ footer {
 
   /* --------- Landing ---------  */
  
+  .salute {
+    display: block;
+    padding-top: 1.1rem;
+  }
+
  #showcase {
    margin: 0;
    padding: 0;
