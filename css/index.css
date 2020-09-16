@@ -789,7 +789,7 @@ footer p a {
   }
 }
 
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 2000px) {
   #showcase {
     margin: 0;
     padding: 0;
