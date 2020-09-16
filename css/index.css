@@ -633,6 +633,10 @@ footer p a {
     padding: 0 15rem;
   }
 
+  #what {
+    margin-top: -6rem;
+  }
+
   #what .items {
     display: flex;
     margin: 0 11rem;
@@ -651,7 +655,8 @@ footer p a {
   /* Price  */
 
   #what-price {
-    margin-top: -5rem;
+    margin-top: -8rem;
+    margin-bottom: -5rem;
   }
 
   #what-price .items-price {
