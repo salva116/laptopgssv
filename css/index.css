@@ -835,6 +835,10 @@ footer p a {
     margin-top: 1rem;
   }
 
+  .descrip-low .order-1 img {
+    width: 700px;
+  }
+
   #what-price .items-price .item-price div p {
     margin: 5rem 20rem 3rem 20rem;
   }
