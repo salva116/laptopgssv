@@ -1,26 +1,23 @@
-  /* ------------ Global Styles -------------- */
+/* ------------ Global Styles -------------- */
 
-/* Make three boxes fit together */
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: "Exo", sans-serif;
+  font-family: "Spartan", sans-serif;
   -webkit-font-smoothing: antialiased;
-  background-color: black;
-  /* background-color: #3c3c3c; */
+  background-color: #fff;
 }
 
 #overrides {
-  font-family: "Exo", sans-serif;
+  font-family: "Spartan", sans-serif;
   -webkit-font-smoothing: antialiased;
 }
 
 section {
-  font-family: "Exo", sans-serif;
+  font-family: "Spartan", sans-serif;
 }
-
 
 .button {
   border: none;
@@ -33,159 +30,325 @@ section {
   text-align: center;
 }
 
-.button-highlight {
-  background: #38fe13;
+.button-last {
+  border: none;
+  outline: none;
+  border-radius: 2rem;
+  padding: 0.8rem 0.8rem;
+  font-weight: 700;
+  color: #202020;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button-top {
+  background: #fff;
   text-decoration: none;
 }
 
+.button-top:hover {
+  color: #ef475c;
+  text-decoration: none;
+}
+
+.button-large-top {
+  padding: 1rem 1rem;
+  font-size: 1rem;
+  color: #2c3539;
+}
+
+.button-highlight {
+  background: #ef475c;
+  text-decoration: none;
+}
 
 .button-highlight:hover {
   color: #2c3539;
   text-decoration: none;
 }
 
-/* For transparent button */
 .button-secondary {
-  background: rgb(56, 254, 19);
+  background: #ef475c;
 }
-
 
 .button-large {
-  padding: 1rem 1rem;
+  padding: 1rem 3rem;
   font-size: 1.35rem;
+  color: #fff;
 }
 
+/* ----------------- Top -------------------------- */
 
-  
-  /* ----------------- Top -------------------------- */
+.mainlogo {
+  width: 200px;
+  display: block;
+  text-decoration: none;
+  margin-top: -5px;
+}
 
-  .salute {
-   display: none;
-  }
+.spaflag {
+  width: 30px;
+  text-decoration: none;
+  margin-top: -5px;
+}
 
-  .notmobile {
-    display: none;
-  }
+.buttonalign {
+  margin-top: 5px;
+}
 
-  .whatsapp {
-    width: 50px;
-    text-decoration: none;
-    margin-top: -5px;
-  }
+#mainNavbar {
+  color: #ffffff;
+  background: white;
+  font-weight: 700;
+  text-decoration: none;
+}
 
-  .mainlogo {
-    width: 150px;
-    display: block;
-    text-decoration: none;
-    margin-top: -5px;
-  }
-  
- 
-  .buttonalign {
-    margin-top: 5px;
-  }
-  
-  #mainNavbar {
-    color: #fff;
-    /* background: #f2f1f8; */
-    background: black;
-    font-weight: 700;
-    text-decoration: none;
-  }
-  
-  #mainNavbar .nav-link {
-    /* color: white; */
-    color: #fff;
-  }
-  
-  .spaceright {
-    margin-right: 3rem;
-  }
+#mainNavbar .nav-link {
+  color: #202020;
+}
+
+#mainNavbar .nav-link:hover {
+  color: #ef475c;
+}
+
+#mainNavbar .navbar-brand {
+  color: #ea1c2c;
+}
+
+.spaceright {
+  margin-right: 3rem;
+}
+
+.navbar.scrolled {
+  background: #fff;
+  transition: background 500ms;
+}
+
+#mainNavbar .butalign {
+  margin-top: 2px;
+  color: #fff;
+}
+
+#mainNavbar .hov:hover {
+  color: #2c3539;
+}
+
+.whatsapp {
+  width: 35px;
+  text-decoration: none;
+  margin-top: -5px;
+}
+
+.mobile-hidden {
+  display: none;
+}
 
 /* ---------------- Landing -----------------------  */
 
 #showcase {
   margin: 0;
   padding: 0;
-  /* background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frodicomputerservice.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fcomputer-laptop-repair.jpeg&f=1&nofb=1")
-    no-repeat center/cover; */
-    background: url("imgs/reparacion-laptop.jpg")
+  background: url("https://aujikoyqnp.cloudimg.io/v7/www.suncodellc.com/imgs/ppc-marketing-landing.png")
     no-repeat center/cover;
+  /* background: url("https://aujikoyqnp.cloudimg.io/v7/www.suncodellc.com/imgs/ppc-fondo-landing.png?width=1000")
+    no-repeat center/cover; */
   width: 100%;
-  height: 80vh;
+  height: 90vh;
   position: relative;
   overflow-y: hidden;
+  background-position: 20% 40%;
 }
 
-.container {
-  margin-top: 15vh;
+.serviceh2 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-top: 9rem;
+  margin-bottom: 1rem;
 }
 
-.overlay {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  width: auto;
-  min-width: 100%;
-  height: auto;
-  min-height: 100%;
-  background: rgba(26, 29, 37, 0.6);
-}
-
-#showcase .overlay h1 {
-  font-size: 3rem;
-  line-height: 3.5rem;
-  margin: 20vh 1rem 0 1rem;
-  color: #fff;
-  text-align: center;
-  font-weight: 400;
-}
-
-#showcase h2 {
+.lead {
   font-size: 1rem;
-  margin: 3rem 1rem 0 1rem;
-  color: #fff;
+  margin-bottom: 2.5rem;
+}
+
+.descrip {
+  /* margin-top: 25px; */
+  margin-bottom: 0px;
+  color: #f2f1f8;
+}
+
+.bordering {
+  margin-top: -18rem;
+}
+
+.row .order-2 img {
+  width: 200px;
+  margin: 18rem 0rem 0rem 4rem;
+}
+
+/* ---------------- Servicios --------------  */
+
+#googleads {
+  margin-top: 1.5rem;
+  background: #fff;
+  padding: 1rem 0 5rem 0;
   text-align: center;
 }
 
-.button-aligning {
-  margin: 3rem 1rem 0 12rem;
-  font-size: 1.3rem;
+.sub-title {
+  font-size: 1rem;
+  color: #202020;
+  width: 100%;
+  max-width: 100%;
+  display: block;
+  margin: 1.5rem auto -3rem auto;
+  padding: 0 1rem;
 }
 
+.descrip-low {
+  margin-top: 25px;
+  margin-bottom: 0px;
+  /* color: #f2f1f8; */
+  color: #202020;
+}
 
-  /* ---------------- Servicios --------------  */
+.title {
+  font-size: 1.5rem;
+  color: #3f3d4e;
+  margin: 1rem;
+  font-weight: 700;
+}
 
-  
-  .descrip {
-    margin-top: 25px;
-    margin-bottom: 0px;
-    color: #f2f1f8;
-  }
+/* --------------------- Description ------------------ */
 
-
-  .serviceh2 {
-    margin-top: 1rem;
-    margin-bottom: 2rem;
-    
-  }
-
-  .lead {
-    margin-bottom: 3rem;
-  }
-
-  .bordering {
-    margin-top: -4rem;
-    /* border: 5px solid #38fe13; */
-    /* border: 5px solid #202020; */
-  }
-
-    /* ------------------ Contact Us ------------------  */
-
-    
-#contact {
+#what {
   background: #fff;
-  padding: 3rem 0 5rem 0;
+}
+
+#what .items {
+  display: block;
+  padding: 1rem;
+}
+
+#what .items .item {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.1);
+}
+
+#what .items .item img {
+  width: 250px;
+  /* background: #93cb52; */
+  padding: 1rem;
+  /* border-radius: 50%; */
+  margin-bottom: 1rem;
+}
+
+#what-one {
+  background: #fff;
+  margin-top: -1.7rem;
+}
+
+#what-one .items-one {
+  display: block;
+  padding: 1rem;
+}
+
+#what-one .items-one .item-one {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.1);
+}
+
+#what-one .items-one .item-one img {
+  width: 250px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#what-two {
+  background: #fff;
+}
+
+#what-two .items-two {
+  display: block;
+  padding: 1rem;
+}
+
+#what-two .items-two .item-two {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.1);
+}
+
+#what-two .items-two .item-two img {
+  width: 250px;
+  /* background: #93cb52; */
+  padding: 1rem;
+  /* border-radius: 50%; */
+  margin-bottom: 1rem;
+}
+
+/* ----------------------- Testimonial Section 4 ------------------ */
+
+.epic {
+  margin-top: -3rem;
+  margin-bottom: -6rem;
+}
+
+.texth2 {
+  font-size: 1.5rem;
+  margin-top: 6rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+}
+
+.textlead {
+  margin-bottom: -1rem;
+}
+
+/* ---------------------------- Price ----------------------------- */
+
+#what-price {
+  background: #fff;
+}
+
+#what-price .items-price {
+  display: block;
+  padding: 1rem;
+}
+
+#what-price .items-price .item-price {
+  display: block;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.1);
+}
+
+#what-price .items-price .item-price img {
+  width: 300px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+#what-price .items-price .item-price div h3 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 2rem;
+}
+
+/* ------------------ Contact Us ------------------  */
+
+#contact {
+  background: #f2f1f8;
+  padding: 6rem 0 8rem 0;
   text-align: center;
 }
 
@@ -198,182 +361,471 @@ section {
 
 .sub-titlecontact {
   font-size: 1.5rem;
-  /* color: #b9b7c6; */
-  color: #202020;
-  width: 600px;
+  color: #b9b7c6;
+  width: 100%;
   max-width: 100%;
   display: block;
-  margin: 0 auto 4rem auto;
+  margin: 0 auto 2.5rem auto;
+  padding: 0 1rem;
 }
 
 footer {
   padding: 1.3rem 0;
 }
 
-.copyright {
-  width: 40px;
-    display: block;
-    margin: -8px auto;
+footer p a {
+  color: #ef475c;
+  text-decoration: none;
 }
 
+.copyright {
+  text-align: center;
+  font-weight: 700;
+  color: #b9b7c6;
+}
 
+/* ---------------------- 768px -------------------------- */
 
-
-  /* -------------------- iphone 6 ------------------ */
-
-  @media only screen and (min-width: 370px) {
-
-    .button-aligning {
-      margin: 3rem 1rem 0 8rem;
-      font-size: 1.3rem;
-    }
+@media only screen and (min-width: 768px) {
+  .whatsapp {
+    display: block;
   }
 
-  /* -------------------- iphone X --------------- */
-
-  @media only screen and (min-width: 370px) {
-
-    #showcase .overlay h1 {
-      margin: 22vh 1rem 0 1rem;
-    }
-
-    .lead {
-      margin-bottom: 4rem;
-    }
+  .mobile-hidden {
+    display: none;
   }
 
-  @media only screen and (min-width: 400px) {
+  #showcase {
+    margin: 0;
+    padding: 0;
+    background: url("https://aujikoyqnp.cloudimg.io/v7/www.suncodellc.com/imgs/ppc-marketing-landing.png")
+      no-repeat center/cover;
+    width: 100%;
+    height: 80vh;
+    position: relative;
+    overflow-y: hidden;
+    background-position: 20% 40%;
+  }
 
-    .button-aligning {
-      margin: 3rem 1rem 0 10rem;
-      font-size: 1.3rem;
-    }
+  .serviceh2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 14rem;
+    margin-bottom: 1rem;
+  }
+
+  .lead {
+    font-size: 1.3rem;
+    margin-bottom: 2.5rem;
+  }
+
+  .descrip {
+    /* margin-top: 25px; */
+    margin-bottom: 0px;
+    color: #f2f1f8;
+  }
+
+  .bordering {
+    margin-top: -18rem;
+  }
+
+  .row .order-2 img {
+    width: 500px;
+    margin: 32rem 0rem 0rem -1rem;
+  }
+
+  #what-price {
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  #showcase {
+    margin: 0;
+    padding: 0;
+    background: url("https://aujikoyqnp.cloudimg.io/v7/www.suncodellc.com/imgs/ppc-marketing-landing.png")
+      no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .whatsapp {
+    display: none;
+  }
+
+  .mobile-hidden {
+    display: block;
+  }
+
+  .bordering {
+    margin-top: -4rem;
+  }
+
+  .row .order-2 img {
+    width: 550px;
+    margin-top: 18rem;
+  }
+
+  /* Services */
+
+  #what {
+    margin-top: 0rem;
+  }
+
+  #what .items {
+    display: flex;
+  }
+
+  #what .items .item {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  #what-one {
+    margin-top: -5rem;
+  }
+
+  #what-one .items-one {
+    display: flex;
+  }
+
+  #what-one .items-one .item-one {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  #what-two {
+    margin-top: -5rem;
+  }
+
+  #what-two .items-two {
+    display: flex;
+  }
+
+  #what-two .items-two .item-two {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  #what-price {
+    margin-top: 0rem;
+  }
+
+  #what-price .items-price {
+    display: flex;
+  }
+
+  #what-price .items-price .item-price {
+    flex: 1;
+    box-shadow: none;
+    margin-top: 15rem;
+  }
+
+  #what-price .items-price .item-price .linking p {
+    margin-top: 2rem;
+  }
+
+  #what-price .items-price .item-price img {
+    /* box-shadow: 0px 0px 57px 0px rgba(4, 6, 9, 0.1); */
+  }
+
+  /* Testimonial Section 4  */
+
+  .texth2 {
+    margin: -1rem 2rem 3rem -15rem;
+  }
+
+  .textlead {
+    font-size: 1rem;
+    padding: 0 0;
+    margin: 0 2rem 0 -5rem;
+    text-align: justify;
+  }
+
+  #what-price .items-price .item-price div h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+}
+
+/* ---------------------- 768px -------------------------- */
+
+@media only screen and (min-width: 1100px) {
+  /* Landing */
+
+  #showcase {
+    margin: 0;
+    padding: 0;
+    background: url("https://aujikoyqnp.cloudimg.io/v7/www.suncodellc.com/imgs/ppc-marketing-landing.png")
+      no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .container {
+    margin-top: 15vh;
+  }
+
+  .descrip {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #f2f1f8;
+  }
+
+  .row .order-2 img {
+    width: 550px;
+    margin-top: 18rem;
+  }
+
+  .aligner {
+    text-align: left;
+  }
+
+  .serviceh2 {
+    margin-top: 10rem;
+    font-weight: 700;
+    font-size: 4rem;
+  }
+
+  .lead {
+    font-size: 1.6rem;
+    margin-bottom: 4rem;
+  }
+
+  .bordering {
+    margin-top: -4rem;
+  }
+
+  /* Services */
+
+  .title {
+    font-size: 2rem;
+    color: #3f3d4e;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    font-weight: 700;
+  }
+
+  .sub-title {
+    font-size: 1.4rem;
+    margin: 0 auto 2.5rem auto;
+    padding: 0 15rem;
+  }
+
+  #what .items {
+    display: flex;
+    margin: 0 11rem;
+  }
+
+  #what .items .item {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  #what-one .items-one {
+    display: flex;
+    margin: 0 11rem;
+  }
+
+  /* Price  */
+
+  #what-price {
+    margin-top: -5rem;
+  }
+
+  #what-price .items-price {
+    display: flex;
+  }
+
+  #what-price .items-price .item-price {
+    flex: 1;
+    box-shadow: none;
+  }
+
+  #what-price .items-price .item-price img {
+    width: 700px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  #what-price .items-price .item-price div h3 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+  }
+
+  #what-price .items-price .item-price div p {
+    font-size: 1.6rem;
+    margin: 5rem 20rem;
+    text-align: center;
+  }
+
+  /* -------------------- Section 4 ------------------- */
+
+  .texth2 {
+    margin: 0rem 2rem 3rem -15rem;
+  }
+
+  .textlead {
+    font-size: 1rem;
+    padding: 0 0;
+    margin: 0 2rem 0 -15rem;
+    text-align: justify;
+  }
+
+  /* Contactanos  */
+
+  #contact {
+    background: #f2f1f8;
+    padding: 6rem 0 8rem 0;
+    text-align: center;
+  }
+
+  .titlecontact {
+    font-size: 2.5rem;
+    color: #3f3d4e;
+    margin: 1rem;
+    font-weight: 700;
+  }
+
+  .sub-titlecontact {
+    font-size: 1.5rem;
+    color: #b9b7c6;
+    width: 600px;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto 4rem auto;
+  }
+
+  footer {
+    padding: 1rem 0;
+  }
+
+  .copyright {
+    text-align: center;
+    font-weight: 700;
+    color: #b9b7c6;
+  }
+
+  footer p a {
+    color: #ef475c;
+    text-decoration: none;
+  }
+
+  footer p a:hover {
+    color: #2c3539;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 1500px) {
+  #showcase {
+    margin: 0;
+    padding: 0;
+    background: url("https://aujikoyqnp.cloudimg.io/v7/www.suncodellc.com/imgs/ppc-marketing-landing.png")
+      no-repeat center/cover;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    overflow-y: hidden;
+  }
+
+  .container {
+    margin-top: 15vh;
+  }
+
+  .serviceh2 {
+    margin-top: 7rem;
+    font-weight: 700;
+    font-size: 3rem;
+  }
+
+  .lead {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+
+  .bordering {
+    margin-top: -4rem;
+  }
+
+  .row .order-2 img {
+    width: 500px;
+    margin-top: 12rem;
+  }
+
+  #what {
+    margin-top: -5rem;
+  }
+
+  .texth2 {
+    font-weight: 700;
+    font-size: 1.8rem;
+    margin-top: 1rem;
+  }
+
+  #what-price .items-price .item-price div p {
+    margin: 5rem 20rem 3rem 20rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .texth2 {
+    font-size: 2rem;
+    margin: -15rem 2rem 3rem -15rem;
+    font-weight: 700;
+  }
+
+  .textlead {
+    font-size: 1.3rem;
+    padding: 0 0;
+    margin: 0 2rem 0 -15rem;
+    text-align: justify;
+  }
+}
+
+/* -------------------- iphone 6 ------------------ */
+
+/* @media only screen and (min-width: 370px) {
+
+   
+  } */
+
+/* -------------------- iphone X --------------- */
+
+/* @media only screen and (min-width: 370px) {
+
+    
+  } */
+
+/* @media only screen and (min-width: 400px) {
+
+  
   }
 
   @media only screen and (min-width: 500px) {
 
-    .button-aligning {
-      margin: 3rem 1rem 0 12rem;
-      font-size: 1.3rem;
-    }
+    
   }
 
   @media only screen and (min-width: 600px) {
 
-    .button-aligning {
-      margin: 3rem 1rem 0 15rem;
-      font-size: 1.3rem;
-    }
+  
   }
 
   @media only screen and (min-width: 700px) {
 
-    .button-aligning {
-      margin: 3rem 1rem 0 18rem;
-      font-size: 1.3rem;
-    }
-  }
+   
+  } */
 
- /* ------------------ ipad ----------------------  */
+/* ------------------ ipad ----------------------  */
 
- @media screen and (min-width: 768px) {
-    
-    
-  /* --------- Top --------- */
+/* @media screen and (min-width: 768px) {
+     */
 
-  .mainlogo {
-    width: 170px;
-  }
-
-  .navbar-nav .nav-item .toright {
-    display: none;
-  }
-  
-    /* -------- Landing --------  */
-
-    #showcase {
-      height: 80vh;
-    }
-
-  #showcase .overlay h1 {
-    margin-top: 2rem;
-    font-size: 4rem;
-    padding-top: 10rem;
-    
-  }
-  
-  #showcase h2 {
-    font-size: 2rem;
-    padding-top: 5rem;
-  }
-
-
-  .button-aligning {
-    margin: 5rem 1rem 0 20rem;
-    font-size: 1.5rem;
-  }
-
-  #info {
-    margin-top: 4rem;
-  }
-
-    /* ------------------ larger ----------------------  */
-
-@media screen and (min-width: 769px) {
-
-  /* --------- Landing ---------  */
- 
-  .salute {
-    display: block;
-    padding-top: 1.1rem;
-    font-weight: 400;
-    /* font-size: 1.2rem; */
-  }
-
- #showcase {
-   margin: 0;
-   padding: 0;
-   background: url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Frodicomputerservice.com%2Fwp-content%2Fuploads%2F2017%2F06%2Fcomputer-laptop-repair.jpeg&f=1&nofb=1")
-     no-repeat center/cover;
-   width: 100%;
-   height: 100vh;
-   position: relative;
-   overflow-y: hidden;
- }
- 
- 
- #showcase .overlay h1 {
-   font-size: 5rem;
-   margin: 5rem 1rem 0 1rem;
-   color: #fff;
-   text-align: center;
-   font-weight: 400;
-   line-height: 7rem;
- }
- 
- #showcase h2 {
-   font-size: 1.5rem;
-   margin: 2rem 1rem 0 1rem;
-   color: #fff;
-   text-align: center;
- }
- 
- .button-aligning {
-   margin: 7rem 1rem 5rem 1rem;
-   text-align: center;
- }
-
- /* Servicios */
-
- .serviceh2 {
-  font-size: 4rem;
-  margin-bottom: 2rem;
-  
-}
-
-.lead {
-  margin-bottom: 3rem;
-  font-size: 2rem;
-}
- 
-}
+/* @media screen and (min-width: 769px) { */
