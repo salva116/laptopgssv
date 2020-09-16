@@ -577,16 +577,21 @@ footer p a {
     color: #f2f1f8;
   }
 
-  .row .order-2 img {
+  /* .row .order-2 img {
     width: 550px;
     margin-top: 18rem;
+  } */
+
+  .row .order-2 img {
+    width: 400px;
+    margin-top: 13rem;
   }
 
   .aligner {
     text-align: left;
   }
 
-  .serviceh2 {
+  /* .serviceh2 {
     margin-top: 10rem;
     font-weight: 700;
     font-size: 4rem;
@@ -594,6 +599,17 @@ footer p a {
 
   .lead {
     font-size: 1.6rem;
+    margin-bottom: 4rem;
+  } */
+
+  .serviceh2 {
+    margin-top: 7rem;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
     margin-bottom: 4rem;
   }
 
@@ -678,6 +694,11 @@ footer p a {
     text-align: justify;
   }
 
+  .descrip-low .order-1 img {
+    width: 400px;
+    margin-left: 8rem;
+  }
+
   /* Contactanos  */
 
   #contact {
@@ -722,6 +743,42 @@ footer p a {
     text-decoration: none;
   }
 }
+
+/* @media only screen and (min-width: 1400px) {
+  .container {
+    margin-top: 15vh;
+  }
+
+  .descrip {
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: #f2f1f8;
+  }
+
+  .row .order-2 img {
+    width: 400px;
+    margin-top: 16rem;
+  }
+
+  .aligner {
+    text-align: left;
+  }
+
+  .serviceh2 {
+    margin-top: 9rem;
+    font-weight: 700;
+    font-size: 2rem;
+  }
+
+  .lead {
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+  }
+
+  .bordering {
+    margin-top: -4rem;
+  }
+} */
 
 @media only screen and (min-width: 1500px) {
   #showcase {
